@@ -1,0 +1,72 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 1`] = `
+<DocumentFragment>
+  <header
+    class="flex-row px-1"
+  >
+    <h2>
+      <a
+        data-testid="link"
+        href="/"
+      >
+        <span
+          aria-label="initials"
+          role="img"
+        >
+           🚍 
+        </span>
+        <p1>
+          Kendall D. Felder
+        </p1>
+      </a>
+    </h2>
+    <nav>
+      <ul
+        class="flex-row"
+      >
+        <li
+          class="mx-2"
+        >
+          <a
+            data-testid="about"
+            href="#about"
+          >
+            About Me
+          </a>
+        </li>
+        <li
+          class="mx-2"
+        >
+          <a
+            data-testid="Portfolio"
+            href="portfolio"
+          >
+            Portfolio
+          </a>
+        </li>
+        <li
+          class="mx-2"
+        >
+          <a
+            data-testid="Resume"
+            href="resume"
+          >
+            Resume
+          </a>
+        </li>
+        <li
+          class="mx-2"
+        >
+          <a
+            data-testid="Contact"
+            href="#contact"
+          >
+            Contact Me
+          </a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+</DocumentFragment>
+`;
