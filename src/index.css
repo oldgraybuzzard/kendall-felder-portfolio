@@ -5,12 +5,12 @@ main {
   padding: 50px 30px;
 }
 :root {
-  --primary: #D1D1D1;
-  --secondary: #585481;
-  --tertiary: #85C7F2;
-  --light: #DBDBDB;
-  --dark: #020202;
-  --darker: #111111;
+  --primary: #EDE5A6;
+  --secondary: #BF3100;
+  --tertiary: #FF4E00;
+  --light: #EDE5A6;
+  --dark: #33658A;
+  --darker: #401F3E;
   --error: rgb(228, 46, 1);
   --spacing-one: calc(1rem * 0.5);
   --spacing-two: calc(1rem);
@@ -46,6 +46,7 @@ h3,
 h4,
 h5,
 h6 {
+  color: var(--primary);
   font-family: 'Roboto', sans-serif;
   font-weight: 500;
   margin: 5px 0;
@@ -79,6 +80,7 @@ h6 {
 p {
   font-size: 1.1rem;
   margin-top: 0;
+  color: var(--primary)
 }
 
 a {
@@ -89,6 +91,7 @@ a {
 
 a:hover {
   text-decoration: underline;
+  color: var(--tertiary)
 }
 
 header {
@@ -97,6 +100,11 @@ header {
 
 header a {
   color: var(--light);
+}
+
+header a:hover {
+  color: var(--tertiary)
+
 }
 
 button {
@@ -152,6 +160,11 @@ li {
 
 nav a:hover {
   text-decoration: none;
+  color: var(--tertiary)
+}
+
+nav ul {
+  color: #A33B20
 }
 
 nav  li {
@@ -292,4 +305,16 @@ a {
 
 .navActive {
   color: var(--secondary);
+}
+
+footer {
+  color: var(--light);
+}
+
+footer a {
+  color: var(--primary)
+}
+
+footer a:hover {
+  color: var(--tertiary)
 }

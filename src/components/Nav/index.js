@@ -1,5 +1,5 @@
 import React from "react";
-import { capitalizeFirstLetter } from '../../utils/helpers';
+
 
 
 function Nav(props) {
@@ -8,14 +8,13 @@ function Nav(props) {
   } = props;
 
   return (
-    <header className="flex-row px-1">
+    <header className="navbar sticky-top navbar-light" style={{backgroundColor: '#33658A', color: '#00A7E1'}}>
       <h2>
         <a data-testid='link' href='/'>
-          <span role='img' aria-label='initials'> 🚍 </span>
-          <p1  >Kendall D. Felder</p1>
+          <span aria-label='initials'>KDF</span>
         </a>
       </h2>
-      <nav>
+      <nav style={{color: '#A33B20'}}>
         <ul className="flex-row">
           <li className="mx-2">
             <a data-testid="about" href="#about" onClick={() => setContactSelected
