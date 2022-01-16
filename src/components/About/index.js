@@ -4,10 +4,11 @@ import { capitalizeFirstLetter } from '../../utils/helpers';
 
 
 const About = () => {
-  return 
+  return (
   <section>
     <h1>Hello</h1>
   </section>
+  );
 
 }
 
