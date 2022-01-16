@@ -6,7 +6,7 @@ function Footer() {
   return (
     <footer className="flex-row px-1">
       <h3>
-        Made with ❤!
+        Made with ❤ by OldGrayBuzzard!
       </h3>
 
     </footer>
