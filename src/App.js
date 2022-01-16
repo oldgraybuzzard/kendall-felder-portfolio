@@ -3,6 +3,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
 import './index.css';
 
+
 // import indiviual pages here
 import About from './components/About';
 import Nav from './components/Nav';

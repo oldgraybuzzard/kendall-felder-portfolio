@@ -14,6 +14,7 @@ function Nav(props) {
           <span aria-label='initials'>KDF</span>
         </a>
       </h2>
+      <h2 style={{fontWeight: 'bold'}}>Kendall D. Felder</h2>
       <nav style={{color: '#A33B20'}}>
         <ul className="flex-row">
           <li className="mx-2">
