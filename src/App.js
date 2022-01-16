@@ -5,8 +5,9 @@ import './index.css';
 
 
 // import indiviual pages here
-import About from './components/About';
 import Nav from './components/Nav';
+import About from './components/About';
+import Portfolio from './components/Portfolio';
 import Footer from './components/Footer';
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
       <Nav></Nav>
       <main>
         <About></About>
+        <Portfolio></Portfolio>
       </main>
       <Footer></Footer>
 

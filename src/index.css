@@ -281,6 +281,14 @@ textarea {
 	margin-bottom: 25px;
 }
 
+.card a:hover {
+  color: #00b894
+}
+
+.card a {
+  color: var(--primary)
+}
+
 button {
 	background: var(--primary);
 	border: 0;
