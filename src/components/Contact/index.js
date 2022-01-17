@@ -99,10 +99,7 @@ function Contact() {
                             </div>
                         </form>
                     
-                        <h4>
-                            Kendall Felder <br />
-                            Or simply send me an email at:  <a href="mailto:.com"> mockups.porch.0k@icloud.com</a>
-                        </h4>
+                        <h4>Or simply send me an email at:  <a href="mailto:.com"> mockups.porch.0k@icloud.com</a></h4>
                     </div>
                 </div>
             </div>
