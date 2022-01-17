@@ -1,57 +1,46 @@
-import React from "react";
+import React, { useEffect} from "react";
 import { capitalizeFirstLetter } from '../../utils/helpers';
-
-
 
 function Nav(props) {
   const {
-    categories = [],
-    setCurrentCategory,
-    contactSelected,
-    currentCategory,
-    setContactSelected,
+    pages = [],
+    setCurrentPage,
+    currentPage,
   } = props;
 
+    useEffect(() => {
+      document.title = capitalizeFirstLetter(currentPage.name);
+  }, [currentPage]);
+
   return (
-    <header className="navbar sticky-top navbar-light" style={{backgroundColor: '#33658A', color: '#00A7E1'}}>
-      <h2>
-        <a data-testid='link' href='/'>
-          <span aria-label='initials'>KDF</span>
-        </a>
-      </h2>
-      <h2 style={{fontWeight: 'bold'}}>Kendall D. Felder</h2>
-      <nav style={{color: '#A33B20'}}>
-        <ul className="flex-row">
-          <li className="mx-2">
-            <a data-testid="about" href="#about" onClick={() => setContactSelected
-            (false)}>
-              About Me
-            </a>
-          </li>
-          <li className={`mx-2 ${contactSelected && 'navActive'}`}>
-            <span onClick={() => setContactSelected(true)}>Contact Me</span>
-          </li>
-          {categories.map((category) => (
-            <li
-              className={`mx-1 ${
-                currentCategory.name === category.name && !contactSelected && 'navActive'
-              }`}
-              key={category.name}
-              >
-                <span
-                  onClick={() => {
-                    setCurrentCategory(category);
-                    setContactSelected(false);
-                  }}
-                >
-                  {capitalizeFirstLetter(category.name)}
-                </span>
-              </li>
-            ))}
-        </ul>
-      </nav>
-    </header>
-  );
+    <nav className="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+      <div className="container">
+        <a className="navbar-brand js-scroll-trigger">Kendall D. Felder</a>
+        <button className="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+            <span className="navbar-toggler-icon"></span>
+        </button>
+        <div className="collapse navbar-collapse" id="navbarResponsive">
+            <ul className="navbar-nav ml-auto">
+                {pages.map((Page) => (
+                    <li
+                        className={`nav-item nav-link js-scroll-trigger ${
+                            currentPage.name === Page.name && 'active'
+                            }`}
+                        key={Page.name}
+                    >
+                        <span
+                            onClick={() => setCurrentPage(Page)}
+                        >
+                            {capitalizeFirstLetter(Page.name)}
+                        </span>
+                    </li>
+                ))}
+            </ul>
+        </div>
+    </div>
+</nav>
+);
 }
+
 
 export default Nav;

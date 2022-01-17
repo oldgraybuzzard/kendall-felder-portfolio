@@ -1,17 +1,14 @@
 import React from "react";
 
-function Card({onClose, currentProject}) {
-  const {name, category, description, index} = currentProject;
+function Card({currentProjects}) {
+  const {name, category, description, link} = currentProjects;
       return (
-      <div className="modalBackdrop">
-        <div className="modalContainer">
-          <h3 className="modalTitle">{name}</h3>
-          <p>
-            {description}
-          </p>
-          <button onClick={onClose} type="button">
-            Close this modal
-          </button>
+      <div className="card" style={{backgroundColor: "#242423", width: '18rem'}}>
+        <div className="card-body">
+          <h4 className="card-title">{name}</h4>
+          <h5 className="card-subtitle mb-2 text-muted">{category}</h5>
+          <p className="card-text">{description}</p>
+          <a href={link} className="card-link">Link to Project</a>
         </div>
       </div>
     );
