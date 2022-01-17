@@ -25,19 +25,19 @@ function Nav(props) {
           </li>
          
           <li className="mx-2">
-            <a data-testid="Portfolio" href="portfolio" onClick={() => setContactSelected
+            <a data-testid="Portfolio" href="#portfolio" onClick={() => setContactSelected
             (false)}>
               Portfolio
             </a>
           </li>
           <li className="mx-2">
-            <a data-testid="Resume" href="resume" onClick={() => setContactSelected 
+            <a data-testid="Resume" href="#resume" onClick={() => setContactSelected 
             (false)}>
               Resume
             </a>
           </li>
           <li className="mx-2">
-            <a data-testid="Contact" href="#contact" onClick={() => setContactSelected
+            <a data-testid="Contact" href="#contactme" onClick={() => setContactSelected
             (false)}>
               Contact Me
             </a>

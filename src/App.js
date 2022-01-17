@@ -8,6 +8,7 @@ import './index.css';
 import Nav from './components/Nav';
 import About from './components/About';
 import Portfolio from './components/Portfolio';
+import ContactMe from './components/Contact';
 import Footer from './components/Footer';
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
       <main>
         <About></About>
         <Portfolio></Portfolio>
+        <ContactMe></ContactMe>
       </main>
       <Footer></Footer>
 

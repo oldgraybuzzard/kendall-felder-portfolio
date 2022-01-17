@@ -1,9 +1,8 @@
 import React from "react";
-import { capitalizeFirstLetter } from '../../utils/helpers';
 
 function Portfolio () {
   return (
-    <div className="border-top">
+    <div className="border-top my-5">
        <h3 className="text-center">
         A Sampling of my Full Stack Web Development Projects
       </h3>

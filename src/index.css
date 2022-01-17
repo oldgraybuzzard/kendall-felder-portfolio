@@ -289,8 +289,12 @@ textarea {
   color: var(--primary)
 }
 
+form label {
+  color: var(--primary);
+}
+
 button {
-	background: var(--primary);
+	background: var(--tertiary);
 	border: 0;
 	border-radius: 5px;
 	color: #fff;
