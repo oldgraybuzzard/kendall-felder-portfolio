@@ -18,8 +18,7 @@ function Footer() {
             <div className="container">
                 <div className="row">
                     <div className="col-lg-8 mx-auto text-center">
-                      <a href="/" className="mb-3 me-2 mb-md-0">KDF</a>
-                        <span>&copy; 2022. Created with ❤️ and ✊ for all by
+                        <span>Created with ❤️ and ✊ for all by
                           {' '}
                             <a target='blank' href="https://github.com/oldgraybuzzard">OldGrayBuzzard!</a>
                         </span>

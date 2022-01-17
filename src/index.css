@@ -171,7 +171,7 @@ body {
 div.masthead {
   padding-top: 10rem;
   padding-bottom: calc(10rem - 56px);
-  background-image: url("./assets/img/airstream-2656977_1920.jpg");
+  background-image: url("./assets/img/airstream-portfolio-cover.jpg");
   background-position: center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -187,11 +187,12 @@ div.masthead h1 {
   margin-bottom: 30px;
 }
 div.masthead p {
-  font-weight: 300;
+  font-weight: 500;
+  font-size: 1rem;
 }
 @media (min-width: 768px) {
   div.masthead p {
-    font-size: 1.15rem;
+    font-size: 1.5rem;
   }
 }
 @media (min-width: 992px) {
@@ -230,7 +231,7 @@ div.masthead p {
   text-align: center;
   opacity: 0;
   color: #fff;
-  background: rgba(240, 95, 64, 0.9);
+  background: #FF4A1C;
   -webkit-transition: all 0.2s;
   -moz-transition: all 0.2s;
   transition: all 0.2s;
@@ -322,7 +323,7 @@ div.masthead p {
 
 /* Footer */
 footer a {
-  margin: 20pt;
+  margin: 15pt;
 }
 
 footer i.fab {
@@ -408,7 +409,7 @@ form label:hover {
   line-height: 2rem;
 }
 .portfolio-box-caption-content a:hover {
-  color: #fff;
+  color: #7272AB;
   text-decoration: none;
 }
 .portfolio-box-caption-content i.fab {

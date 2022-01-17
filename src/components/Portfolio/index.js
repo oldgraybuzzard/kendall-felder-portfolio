@@ -11,6 +11,18 @@ function Portfolio() {
     const [currentPage] = useState(pages[0]);
     const [projects] = useState([
     {
+      name: 'airstream-rivet-life-blog',
+      repo: 'https://github.com/oldgraybuzzard/aluminum_rivet_life.git',
+      description: 'This is a CMS styled blogging site for owners of Airstream lovers. Users are able to view posts without logging into the site. However, in order to respond to posts or add a post of your own, you must log in first.',
+      link: 'https://arcane-earth-71904.herokuapp.com/'
+    },
+    {
+      name: 'note-taker',
+      repo: 'https://github.com/oldgraybuzzard/note-taker.git',
+      description: 'A simple note taking application which allows you to save notes with a title and plain text. This application is powered by Express, theis note Taker app makes creating, viewing, and deleting notes simple and easy!',
+      link: 'https://stark-crag-48739.herokuapp.com/'
+    },
+    {
       name: 'weather-dashboard',
       description: 'A weather dashboard that allows a user to search for the current weather and future weather by city name.',
       link: 'https://oldgraybuzzard.github.io/weather-dashboard/',
@@ -33,12 +45,6 @@ function Portfolio() {
       repo: 'https://github.com/oldgraybuzzard/readme-generator.git',
       description: 'This is a Node based tool where users can create a Markdown README file for their projects and respositories.',
       link: 'https://watch.screencastify.com/v/MkbdcQAWwMgWVxAnygfp'
-    },
-    {
-      name: 'note-taker',
-      repo: 'https://github.com/oldgraybuzzard/note-taker.git',
-      description: 'A simple note taking application which allows you to save notes with a title and plain text. This application is powered by Express, theis note Taker app makes creating, viewing, and deleting notes simple and easy!',
-      link: 'https://stark-crag-48739.herokuapp.com/'
     },
     {
       name: 'team-profile-generator',
@@ -77,12 +83,7 @@ function Portfolio() {
       description: 'An API for a social network web application where users can share their thoughts, react to friends’ thoughts, and create a friend list. This application uses Express, Node, MongoDB and Mongoose to allow users, thoughts, friend lists and thought reactions to be created, updated and deleted.',
       link: 'https://watch.screencastify.com/v/ap1KOoP9w8QSbZxj9eay'
     },
-    {
-      name: 'airstream-rivet-life-blog',
-      repo: 'https://github.com/oldgraybuzzard/aluminum_rivet_life.git',
-      description: 'This is a CMS styled blogging site for owners of Airstream travel trailers.. Users are able to view posts without logging into the site. However, in order to respond to posts or add a post of your own, you must log in first, either by using an existing username and password combo or by creating a new user. Users must have a Big Red Number(BRN) in order to be a user on the blog site. ',
-      link: 'https://arcane-earth-71904.herokuapp.com/'
-    }
+   
   ]);
   
   return (

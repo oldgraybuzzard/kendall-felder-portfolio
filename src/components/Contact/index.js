@@ -49,7 +49,7 @@ function Contact() {
     };
 
     return (
-        <section className="bg-dark">
+        <section style={{backgroundColor: '#003049'}}>
             <div className="container">
                 <div className="row">
                     <div className="col-lg-10 mx-auto text-white mb-4">
