@@ -10,14 +10,12 @@ Kendall Felder's professional portfolio built using React Single Page Applicatio
 * [Links](#links)
 * [Usage](#usage)
 * [Contributors](#contributors)
-* [Features](#features)
-* [Tests](#tests)
+
+
 
 
 ## Dependencies 💻
-T```
 NPM, React, React-Bootstrap
-```
 
 ## Links
 * [Heroku Deployment](https://quiet-eyrie-45005.herokuapp.com/)
