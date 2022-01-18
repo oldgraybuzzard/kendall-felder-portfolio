@@ -22,9 +22,10 @@ const About = () => {
                         <div className="col-lg-10 mx-auto">
                             <h1>{capitalizeFirstLetter(currentPage.name)}</h1>
                             <hr />
-                            <p className="text-faded mb-5">I am an experienced front end developer with detailed full stack knowledge. I recently earned a Certificate in Full Stack Web Development from the University of Central Florida, where I developed skills in MERN Stack and SQL Server.</p>
+                            <p className="text-faded mb-5">Hello, thanks for visiting. Now that you are here, let me give you a very brief overview of my background.</p> 
+                            <p className="text-faded mb-5">I am an entrepreneur, certified project manager with agile experience as well as a detailed full stack web developer. I recently earned a Certificate in Full Stack Web Development from the University of Central Florida, where I developed news skills and refined old ones in HTML, Javascript, MERN Stack and SQL Server to list a few.</p>
                         
-                            <p className="text-faded mb-5">My strong organizational skills and excellent problem-solving abilities allow me to effectively collaborate on cross-functional teams that include designers, software developers, scrum masters, and project managers. My advanced education, professional background in technology, drive for success, and strong attention to detail are great assets that I own.</p>
+                            <p className="text-faded mb-5">My strong organizational skills and excellent problem-solving abilities allow me to effectively collaborate on cross-functional teams that include designers, software developers, scrum masters, and project managers. My advanced education, professional background in technology, drive for success, and strong attention to detail are great assets that I possess.</p>
                         </div>
                     </div>
                 </div>
