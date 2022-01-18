@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/kendall-felder-portfolio/static/css/main.ea1f0060.css",
+    "main.js": "/kendall-felder-portfolio/static/js/main.c4fa7bf2.js",
+    "static/js/787.0f3fd106.chunk.js": "/kendall-felder-portfolio/static/js/787.0f3fd106.chunk.js",
+    "static/media/airstream-portfolio-cover.jpg": "/kendall-felder-portfolio/static/media/airstream-portfolio-cover.bc434d241afe393ce8e2.jpg",
+    "static/media/018.jpg": "/kendall-felder-portfolio/static/media/018.181d37b65e4ff95c0934.jpg",
+    "static/media/rivet-connector.jpg": "/kendall-felder-portfolio/static/media/rivet-connector.8702c9a094bec42f4341.jpg",
+    "static/media/budget-tracking-web-application.jpg": "/kendall-felder-portfolio/static/media/budget-tracking-web-application.83ce2bcbb1aa3d3e56cc.jpg",
+    "static/media/Kendall Felder Resume.pdf": "/kendall-felder-portfolio/static/media/Kendall Felder Resume.64a33edc1b5db9bc3d7c.pdf",
+    "static/media/weather-dashboard.jpg": "/kendall-felder-portfolio/static/media/weather-dashboard.b77734d9740f046e30e3.jpg",
+    "static/media/work-scheduler-app.jpg": "/kendall-felder-portfolio/static/media/work-scheduler-app.e20fc5612bbae60c5a21.jpg",
+    "static/media/team-profile-generator.jpg": "/kendall-felder-portfolio/static/media/team-profile-generator.633db8e32d64a5274227.jpg",
+    "static/media/airstream-rivet-life-blog.jpg": "/kendall-felder-portfolio/static/media/airstream-rivet-life-blog.7051a2a63e21aa701558.jpg",
+    "static/media/turbo-quiz.jpg": "/kendall-felder-portfolio/static/media/turbo-quiz.1940028db2e9e6210777.jpg",
+    "static/media/markdown-readme-generator.jpg": "/kendall-felder-portfolio/static/media/markdown-readme-generator.4d98d574bb478d92cebb.jpg",
+    "static/media/note-taker.jpg": "/kendall-felder-portfolio/static/media/note-taker.9312ef4375b80c23c393.jpg",
+    "static/media/ecommerce-backend-project.jpg": "/kendall-felder-portfolio/static/media/ecommerce-backend-project.02234e580c0d1d780eaf.jpg",
+    "static/media/opus-robur.jpg": "/kendall-felder-portfolio/static/media/opus-robur.e23b2c47a2d86cdc44a3.jpg",
+    "static/media/employee-management.jpg": "/kendall-felder-portfolio/static/media/employee-management.587e197f5c0f637fc761.jpg",
+    "index.html": "/kendall-felder-portfolio/index.html",
+    "main.ea1f0060.css.map": "/kendall-felder-portfolio/static/css/main.ea1f0060.css.map",
+    "main.c4fa7bf2.js.map": "/kendall-felder-portfolio/static/js/main.c4fa7bf2.js.map",
+    "787.0f3fd106.chunk.js.map": "/kendall-felder-portfolio/static/js/787.0f3fd106.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ea1f0060.css",
+    "static/js/main.c4fa7bf2.js"
+  ]
+}
