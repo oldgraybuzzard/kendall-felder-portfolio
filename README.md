@@ -22,6 +22,7 @@ NPM, React, React-Bootstrap
 * [Github Repo Link](https://github.com/oldgraybuzzard/kendall-felder-portfolio.git)
 
 ## Usage 🏆
+![image](https://user-images.githubusercontent.com/61666382/149955496-e7fcf9ea-ec60-43f2-9439-29679e591119.png)
 
 
 ## Contributors 😃
