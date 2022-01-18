@@ -12,8 +12,6 @@ Kendall Felder's professional portfolio built using React Single Page Applicatio
 * [Contributors](#contributors)
 
 
-
-
 ## Dependencies 💻
 NPM, React, React-Bootstrap
 
