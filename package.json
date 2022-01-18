@@ -2,6 +2,9 @@
   "name": "kendall-felder-portfolio",
   "homepage": "https://oldgraybuzzard.github.io/kendall-felder-portfolio/",
   "version": "0.1.0",
+  "engines": {
+    "node": "16.x"
+  },
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.1",
@@ -41,6 +44,7 @@
     ]
   },
   "devDependencies": {
-    "gh-pages": "^3.2.3"
+    "gh-pages": "^3.2.3",
+    "mini-css-extract-plugin": "^2.5.2"
   }
 }
