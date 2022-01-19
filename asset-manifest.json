@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/kendall-felder-portfolio/static/css/main.ea1f0060.css",
-    "main.js": "/kendall-felder-portfolio/static/js/main.18a698e6.js",
+    "main.js": "/kendall-felder-portfolio/static/js/main.db706692.js",
     "static/js/787.0f3fd106.chunk.js": "/kendall-felder-portfolio/static/js/787.0f3fd106.chunk.js",
     "static/media/airstream-portfolio-cover.jpg": "/kendall-felder-portfolio/static/media/airstream-portfolio-cover.bc434d241afe393ce8e2.jpg",
     "static/media/018.jpg": "/kendall-felder-portfolio/static/media/018.181d37b65e4ff95c0934.jpg",
@@ -20,11 +20,11 @@
     "static/media/employee-management.jpg": "/kendall-felder-portfolio/static/media/employee-management.587e197f5c0f637fc761.jpg",
     "index.html": "/kendall-felder-portfolio/index.html",
     "main.ea1f0060.css.map": "/kendall-felder-portfolio/static/css/main.ea1f0060.css.map",
-    "main.18a698e6.js.map": "/kendall-felder-portfolio/static/js/main.18a698e6.js.map",
+    "main.db706692.js.map": "/kendall-felder-portfolio/static/js/main.db706692.js.map",
     "787.0f3fd106.chunk.js.map": "/kendall-felder-portfolio/static/js/787.0f3fd106.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.ea1f0060.css",
-    "static/js/main.18a698e6.js"
+    "static/js/main.db706692.js"
   ]
 }
