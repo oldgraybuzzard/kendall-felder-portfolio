@@ -1,6 +1,8 @@
+import { send } from 'emailjs-com';
 import React, { useState } from 'react';
 import { capitalizeFirstLetter } from '../../utils/helpers';
 import { validateEmail } from '../../utils/helpers';
+
 
 function Contact() {
     const [pages] = useState([
@@ -20,14 +22,31 @@ function Contact() {
     const [errorMessage, setErrorMessage] = useState('');
     const { name, email, message } = formState;
 
+    const [toSend, setToSend ] = useState({
+        name: '',
+        message: '',
+        email: ''
+    })
+
     const handleSubmit = (e) => {
         e.preventDefault();
-        if (!errorMessage) {
-            console.log('Submit Form', formState);
-        }
-    };
+        send(
+             'service_lw3dnyf',
+             'template_2vzl3ma',
+             toSend,
+             'user_wpiXZHfDebJAVoo86p01m'
+        )
+        .then((response) => {
+            console.log('SUCCESS!', response.status, response.text);
+            alert('Thank You for your feedback!');
+        })
+        .catch((err) => {
+            console.log('FAILED...', err);
+          });
+    }
 
     const handleChange = (e) => {
+        
         if (e.target.name === 'email') {
             const isValid = validateEmail(e.target.value);
             if (!isValid) {
@@ -44,6 +63,7 @@ function Contact() {
         }
         if (!errorMessage) {
             setFormState({ ...formState, [e.target.name]: e.target.value });
+            setToSend({ ...toSend, [e.target.name]: e.target.value });
             console.log('Handle Form', formState);
         }
     };
@@ -64,7 +84,7 @@ function Contact() {
                                     type="text"
                                     name="name"
                                     defaultValue={name}
-                                    onBlur={handleChange}
+                                    onBlur={handleChange} required
                                 />
                             </div>
                             <div>
@@ -75,7 +95,7 @@ function Contact() {
                                     type="email"
                                     name="email"
                                     defaultValue={email}
-                                    onBlur={handleChange}
+                                    onBlur={handleChange} required
                                 />
                             </div>
                             <div>
@@ -86,7 +106,7 @@ function Contact() {
                                     name="message"
                                     rows="5"
                                     defaultValue={message}
-                                    onBlur={handleChange}
+                                    onBlur={handleChange} required
                                 />
                             </div>
                             {errorMessage && (

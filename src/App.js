@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './index.css';
+import { send } from 'emailjs-com';
 
 import Header from "./components/Header";
 import Nav from "./components/Nav";
