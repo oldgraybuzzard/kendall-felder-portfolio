@@ -10,7 +10,13 @@ function Portfolio() {
     ]);
     const [currentPage] = useState(pages[0]);
     const [projects] = useState([
-    {
+      {
+        name: 'versa-train',
+        repo: 'https://github.com/oldgraybuzzard/crispy-giggle.git',
+        description: 'This training application is intended to serve as a full-stack Mern-stack application. The stack is made of MongoDB, Express, React, Redux, graphql and apollo.',
+        link: 'https://crispy-gigglers.herokuapp.com/'
+      },
+      {
       name: 'airstream-rivet-life-blog',
       repo: 'https://github.com/oldgraybuzzard/aluminum_rivet_life.git',
       description: 'This is a CMS styled blogging site for owners of Airstream lovers. Users are able to view posts without logging into the site. However, in order to respond to posts or add a post of your own, you must log in first.',
